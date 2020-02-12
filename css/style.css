@@ -1,0 +1,1282 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color:black;
+    top: 0;
+
+}
+
+body{
+padding:0;
+margin: 0;
+text-decoration: none;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+ nav ul .active a{
+    color: white;
+    border-bottom: 2px solid yellow;
+  }
+
+
+.navdsg{
+
+    color:yellow;;
+    font-size: 18px;
+        font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+   line-height: 50px;
+   margin-right: 55px;
+} 
+.navdsg:hover{
+    
+    border-top: 2px solid yellow;
+  
+  
+ color: rgb(248, 70, 0);
+}
+
+.header{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0, 0.6),rgba(0, 0, 0, 0.6)), url('../../patelcabs/img/jod3.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 95vh;
+    background-attachment: fixed;
+    
+
+}
+.header:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.2;
+    z-index: -1;
+
+}
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.2;
+    z-index: -1;
+
+
+}
+
+
+/* *****navbar end*** */
+
+
+
+
+
+
+
+
+
+.header-section{
+    width: 100%;
+    color:white;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    top:50%;
+    left:50%; 
+    height:auto;
+    position: absolute;
+
+}
+
+.center-div h1{
+    font-size: 3.8rem;
+    padding: 10px 0 0px 0;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Concert One', cursive;
+}
+.center-div h2{
+    font-size: 2.5rem;
+    color:white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.anim{
+    animation: patel infinite 1s;
+}
+
+@keyframes patel{
+    0%{
+        color:yellow;
+
+    }
+    25%{
+color:red;
+    }
+    50%{
+color:green;
+    }
+    75%{
+        color:teal;
+    }
+    100%{
+
+        color: orangered;
+    }
+}
+
+.headerset .btn{
+    background-color:orange; 
+        color:black;
+        border-radius: 15px;
+        padding:15px;
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-right:20px;
+        line-height: 25px;
+      
+    
+    } 
+    .headerset .btn  a{
+        
+        color:black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .headerset .btn:hover{
+        background-color: cyan;
+    }
+
+
+
+
+
+                                /* header part end  */
+
+/* ******mobile call part */
+
+
+.mobcall{
+
+    width: 100%;
+    height: auto;
+   background-image:linear-gradient(20deg,rgba(0, 0, 0, 0.6), rgba(35, 72, 102, 0.6));
+}
+.mob  {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: yellow;
+    text-transform: capitalize;
+    padding: 25px;
+    
+}
+.mob i{
+    color: yellow;
+    font-size: 45px;
+
+}
+.mob i img{
+    width:50px;
+    height: 50px;
+}
+.mob h2{
+    font-size: 45px;
+    color: yellow;
+}
+
+                                /* **********bookcar***** */
+
+
+
+.bookcars{
+
+  
+    width: 100%;
+    height: auto;
+    padding:100px 0 10px 0;
+}
+
+
+.bookcar h1{
+    color: yellow;
+    box-sizing: border-box;    
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 25px;
+
+    
+}
+.bookcar p{
+
+
+    margin-top: 20px;
+    color:black;
+   
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+
+
+::placeholder,select,input[type=date] ,input[type=time]{ 
+    color:#555;
+    text-transform: uppercase;
+    width:100%;
+
+    font-size: 1.2rem;
+}
+.form-group  input[type=text],[type=email],[type=time],[type=number],[type=time],[type=date],option,textarea{
+
+   
+  
+    padding: 0 1em;
+
+    margin-bottom: 20px ;
+    font-family: 'Bree Serif', serif;
+    width:100%;
+
+    color: black;
+    font-size: 1.2rem;
+    display: block;
+    border: 1px solid #ccc;
+        background: rgba(238, 237, 237, 0.705);
+    height: 4rem;
+        border-radius: 4px; 
+
+   
+   
+   
+
+    
+    }
+    fieldset select{
+
+        padding: 0 1rem ;
+        margin-bottom: 20px ;
+        font-family: 'Bree Serif', serif;
+        outline:none;
+        border: none;
+        display: block;
+        font-size: 1.2rem;
+        
+        width:100%;
+        border: 1px solid #ccc;
+        background: rgba(238, 237, 237, 0.705);
+        display: block;
+        height: 3.5em;
+            border-radius: 4px;
+        }
+        .bookcabs{
+        
+        background-color:orange; 
+        color:black;
+        border-radius: 15px;
+        padding:15px;
+        font-weight: bolder;
+        font-size: 20px;
+      
+    
+    } 
+    .bookcabs a{
+        
+        color:black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .bookcabs:hover{
+        background-color: cyan;
+    }
+    #bookcar{
+
+        transition: 0.5s;
+    }
+                                   
+                                /* **********bookcar end***** */
+
+ 
+                                .maincall{
+                                   
+                                  background-image:linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6)) ,url("../../patelcabs/img/jodhmeh\ \(2\).jpg");
+                                  background-attachment: fixed;
+                                  background-size: 100% 100%;
+                                  width: 100%;
+                                  height: 50vh;
+                                  padding:100px 0 60px 0;
+
+                                        
+                                        
+                                    }
+                                   
+                                    .callus{
+                                       
+                                        color:rgb(255, 255, 253);
+                                        padding: 12px;
+
+                                         
+                                    }
+                                    .callus h1{
+                            
+                                        font-size:  45px;
+                                        font-family: 'Roboto Slab', serif;
+                                        font-weight: lighter;
+                                        text-transform: uppercase;
+                                      
+                                     
+                                    }
+                                    
+                                    .callus i{
+                                        color:rgb(255, 255, 253);
+                                      
+                            
+                                    }
+                                    .rent-text{
+                                        margin-top: 40px;
+                                        position: relative;
+                                        font-family: 'Roboto Slab', serif;
+                                        color:rgb(255, 255, 255);
+                                        font-size:  35px;
+                                        text-align: center;
+                                    
+                                    
+                                    }
+
+
+/* ************************************available cars************************* */
+
+
+
+/* ************************************about us************************* */
+.aboutus{
+    width: 100%;
+    height:auto;
+       padding:80px 0 60px 0;
+       background-image: linear-gradient(140deg,rgba(42, 228, 157, 0.7) 52%,rgba(0, 0, 0,0.5) 98%);
+       background-attachment: fixed;
+       outline: none;
+}
+.aboutset{
+   width: 100%;
+    height:auto;
+
+}
+.about h1{
+
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;    
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 25px;
+}
+.about p{
+    margin-top: 30px;
+    color:black;
+    text-align: justify;
+   
+    font-family: 'Bree Serif', serif;
+
+    font-size: 15px;
+padding-right: 10px;
+}
+
+.aboutimg{
+    padding-left:  20px  ;
+    padding-top: 20px;
+
+
+    width:100%;
+}
+.aboutdetail{
+ 
+       padding: 15px;
+    
+
+}
+
+
+.about_usbtn{
+    background-color:black; 
+    color:yellow;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:15px;
+    font-size: 20px;
+
+}
+.about_usbtn a{
+         
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about_usbtn:hover{
+    background-color:green;
+    border-color:black;
+    border: 2px solid yellow;
+}
+/* ************************************about us************************* */
+
+.avail-cars{
+
+    width: 100%;
+    height: auto;
+    padding: 100px 0 60px 0;
+
+}
+.avail-cars h1{
+
+    color: yellow;
+    box-sizing: border-box;    
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 25px;
+
+}
+.avail-cars .safe{
+    margin-top: 30px;
+    color:black;
+   
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+.card{
+    margin-top:40px ;
+    padding: 20px;
+    border: none;
+}
+.card-text p{
+
+font-size: 16px;
+    color:rgb(46, 46, 46);}
+    .card-body{
+
+        margin-top: 20px;
+    }
+
+
+/* ***************************************available cars end************** */
+
+
+
+
+
+
+
+
+
+/* **********************************services******************** */
+.chs{
+
+background-image: linear-gradient(rgb(255, 255, 255) 8%,rgba(95, 145, 142, 0.7) 98%),url("../img/person-laying-in-front-of-silver-sedan-1075947.jpg");
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+padding: 100px 0 60px 0;
+}
+.ourservices{
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+
+    }
+    .rowsetting{
+        margin:80px 0;
+        border: none;
+
+    
+    }
+    
+    
+    .ourservices h1{
+    
+        font-weight: lighter;
+        color: yellow;
+        text-align: center;
+        word-wrap: normal;
+        font-family: 'Bree Serif', serif;
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .ourservices .best{
+    
+        color: black;
+        margin-top: 30px;
+    
+        font-family: 'Roboto Slab', serif;
+        text-transform: uppercase;
+    
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: 2px;
+        padding-bottom: 50px;
+        
+    }
+    .imgset{
+    
+        border-radius: 50%;
+        height: 90px;
+        width: 90px;
+    }
+    .imgset .fa{
+        padding-top:20px;
+    }
+    .rowsetting strong{
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center!important;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Roboto Slab', sans-serif;
+    
+    }
+    .rowsetting p{
+        padding: 20px;
+        color:rgb(46, 46, 46);
+        text-align: center;
+        
+    }
+    
+    /* ********************************services end*********************** */
+    
+
+/* *******************************************contact********************* */
+
+.contact-us{
+    width: 100%;
+    height: auto;
+padding: 80px 0 ;
+    }
+    .headings h1{
+
+        margin-top: 140px;
+        font-family: 'Bree Serif', serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-size: 50px;
+        line-height: 25px;
+        color:yellow;
+    }
+    .headings p{
+        padding: 30px;
+    color: rgb(19, 18, 18)!important;    
+    font-family: 'Bree Serif', serif;
+    font-weight: lighter!important;
+    font-size: 22px!important;
+
+        
+    }
+    .consubmit{
+        
+        background-color:orange; 
+        color:black;
+        border-radius: 15px;
+        padding:15px;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin:15px;      
+    
+    } 
+    .consubmit a{
+        
+        color:black;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+    .consubmit:hover{
+        background-color: cyan;
+    }
+      
+       
+       
+       
+
+
+/* *******************************************contact end********************* */
+
+
+    
+
+     
+    
+     .footer{
+         width: 100%;
+        background:rgb(39, 37, 37);
+        color:white; 
+        display: block;
+        font-family: 'Bree Serif', serif;
+
+        
+    }
+    .inner-footer{
+    
+        width: 95%;
+        margin: auto;
+        padding: 30px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .footer-section{
+        width: 25%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        font-family: 'Bree Serif', serif;
+
+    
+    }
+    .inner-footer h1{
+        color:yellow;
+        font-size: 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+    
+    
+    }
+    .inner-footer p{
+        color:white;
+        font-size: 16px;
+        text-align: justify;
+        font-weight: lighter;
+        font-family: 'Bree Serif', serif;
+    
+        
+    }
+    .inner-footer ul {
+        list-style: none;
+        color: white ;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .inner-footer ul  li{
+        margin: 10px 0;
+        height: 25px;
+        list-style: none;
+        color: white ;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .inner-footer ul  li i{
+        margin: 5px;
+       
+    }
+    .inner-footer ul  a{
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        color: white;
+        transition: 0.5s;
+        text-transform: uppercase;
+    
+    }
+    .link ul  a li:hover{
+    
+        color: yellow;
+        list-style: none;
+        font-family: 'Bree Serif', serif;
+
+    }
+    .adress ul li{
+        padding: 5px 0px 25px 0px;
+        margin: 0;
+        
+    }
+    .adress li i{
+       
+        color:yellow;
+    
+    
+    }
+    .social{
+    
+        width: 100%!important;
+        color:white!important;
+        text-align: center;
+    }
+    .social a{
+        text-transform: none;
+    }
+    
+    .social  a i{
+        height: 45px;
+        width: 45px;
+        margin: 20px 5px;
+        padding: 12px;
+        border-radius: 50%;
+        border: 1px solid yellow;
+        transition: 0.5s  ;
+        color:white;
+        text-align: center;
+    }
+    .social  a i:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .footer-bottom{
+        padding: 10px;
+           background:#3d545f;
+           font-size: 15px;
+           color: white;
+           text-align: center;
+        
+    }
+    
+
+
+      
+    
+@media (max-width:1180px){
+    nav{
+        width: 100%;
+    }
+    .navdsg {
+
+
+        font-size: 18px!important;
+    }
+    .header{
+        height:70vh;
+        width: 100%;
+
+    }
+  
+}
+@media(max-width:1024px)
+{
+    .header{
+        background-size: 100% 100%;
+    }
+    .header-section{
+       margin-top: -180px;
+    height: auto;
+    }
+}
+
+
+
+
+
+    @media(max-width:992px){
+        .navbar-brand{
+        text-align: center!important;
+        }
+       
+       
+       .header{
+           width: 100%;
+           height: 80vh;
+       }
+      
+       .center-div h1{
+
+        font-size: 45px;
+        display: block;
+       }
+       .center-div h2{
+
+        font-size: 35px;
+       }
+
+    }
+
+   
+
+   
+
+@media(min-width:768px) and (max-width:991px){
+    .mob{
+        padding:15px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 40px;
+
+    
+    }
+    .mob h2{
+        font-size:40px;
+      
+    }
+  
+    nav{
+        width: 100%;
+    }
+    .navdsg {
+
+
+        font-size: 19px!important;
+    }
+    .navbar-brand{
+        text-align: center!important;
+        }
+        .header{
+            height:60vh
+        }
+       
+       
+    
+           .headerset .btn{
+            font-size: 20px;
+            line-height: 55px;
+        }
+        .headerset .btn{
+    
+            padding:1px!important;
+        }
+        .headerset .btn a{
+            padding:5px!important;
+            font-weight: bold;
+        } 
+
+     
+
+
+
+
+
+
+
+}
+@media(min-width:575px) and (max-width:767px){
+  
+  
+  
+    .mob{
+        padding:10px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 35px;
+
+    
+    }
+    .mob h2{
+        font-size:35px;
+      
+    }
+  
+    .header{
+        background-size: 100% 100%;
+        height:65vh;
+        
+    }
+   
+   
+    .about-img{
+        display: none;
+    }
+    .center-div h1{
+    
+
+
+        font-size: 55px!important;
+       
+       }
+       .center-div h2{
+           font-size:30px!important;
+       }
+       .headerset .btn{
+        font-size: 15px;
+        line-height: 45px;
+    }
+    .headerset .btn{
+
+        padding:1px!important;
+    }
+    .headerset .btn a{
+        padding:5px!important;
+        font-weight: bold;
+    } 
+
+}
+@media (min-width:462px) and (max-width:574px){
+    .mob{
+        padding:8px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 35px;
+
+    
+    }
+    .mob h2{
+        font-size:35px;
+      
+    }
+    .header{
+       
+            height:60vh
+    
+    }
+    .center-div h1{
+    
+
+
+        font-size: 48px!important;
+       
+       }
+
+       .center-div h2{
+           font-size: 26px!important;
+       }
+    .about-img{
+        display: none;
+    }
+   
+    .callus h1 {
+        font-size: 35px;
+
+    }
+    .rent-text{
+        font-size: 22px;
+    }
+     
+   
+    .bookcar h1{
+        font-size: 45px;
+    }
+    .bookcar p{
+        font-size: 20px;
+    }
+
+
+}
+@media(max-width:461px){
+    .mob{
+        padding:5px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 28px;
+
+    
+    }
+    .mob h2{
+        font-size:28px;
+      
+    }
+   
+    nav{
+        width:100%!important;
+    }
+    .header{
+       
+        height:60vh
+
+}
+    .about-img{
+        display: none;
+    }
+
+
+    .center-div h1{
+    
+
+
+        font-size: 45px!important;
+       
+       }
+       .center-div h2{
+           font-size: 28px!important;
+       }
+
+
+
+       .headerset .btn{
+        font-size: 15px;
+        line-height: 45px;
+    }
+    .headerset .btn{
+
+        padding:1px!important;
+    }
+    .headerset .btn a{
+        padding:5px!important;
+        font-weight: bold;
+    } 
+
+  .callus h1{
+
+    font-size: 25px;
+  }
+  .rent-text{
+
+    font-size: 18px;
+  }
+   
+    .bookcar h1{
+        font-size: 35px;
+    }
+    .bookcar p{
+        font-size: 16px;
+    }
+    .aboutdetail h1{
+        font-size: 32px;
+        color:black;
+    }
+    .avail-cars h1{
+        font-size: 35px;
+
+    }
+    .avail-cars .safe{
+        font-size: 16px;
+        letter-spacing: normal!important;
+    }
+    .ourservices h1{
+        margin-top: -125px;
+        font-size: 35px;
+
+
+    }
+    .ourservices .best{
+        font-size: 18px;
+        letter-spacing: normal!important;
+    }
+    .headings h1{
+        font-size: 35px;
+
+
+    }
+    .headings p{
+        font-size: 18px;
+        letter-spacing: normal!important;
+        text-align: center;
+    }
+    
+    
+
+
+}
+
+@media (max-width:420px)
+{
+    .mob{
+        padding:5px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 28px;
+
+    
+    }
+    .mob h2{
+        font-size:28px;
+      
+    }
+  
+    .header{
+       
+        height:60vh
+
+} 
+.header-section{
+    padding-top: 60px;
+}
+.center-div h1{
+    
+
+
+        font-size: 42px!important;
+       
+       }
+       .center-div h2{
+           font-size: 25px!important;
+       }
+}
+
+@media(max-width:380px) {
+    .mob{
+        padding:5px;
+    }
+   
+    .mob i{
+        color: yellow;
+        font-size: 25px;
+
+    
+    }
+    .mob h2{
+        font-size:25px;
+      
+    }
+    .header-section{
+        padding-top: 155px;
+    }
+    .center-div h1{
+    
+
+
+        font-size: 40px!important;
+       
+       }
+       .center-div h2{
+           font-size: 20px!important;
+       }
+
+
+}
+@media(max-width:325px) and (min-width:320px) {
+.mob{
+
+    padding: 2px;
+}
+    .mob i{
+        color: yellow;
+        font-size: 20px;
+    
+    }
+    .mob h2{
+font-size: 20px;      
+    }
+
+
+    .header{
+    background-size: 100% 100%;
+    height: 70vh;
+}
+
+
+.header-section{
+
+   padding-top:250px;
+}
+    .maincall{
+      
+      
+            width:100%;
+            background-size: 100%  100%;
+           
+        
+        
+    }
+    .center-div h1{
+    
+
+
+        font-size: 30px!important;
+       
+       }
+       .center-div h2{
+           font-size: 20px!important;
+       }
+    nav{
+        width: 100%;
+    }
+    
+
+    .callus h1{
+        font-size: 15px!important;
+
+    }
+    .rent-text{
+
+        font-size:15px ;
+    }
+}
+@media(max-width:245px){
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
+    .header-section{
+        padding-top: 21rem;
+    }
+   
+    .center-div h1{
+        margin-top: 80px!important;
+
+
+
+        font-size: 28px!important;
+       
+       }
+       .center-div h2{
+           font-size: 15px!important;
+       }
+      
+       .headerset .btn{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .bookcar h1{
+        font-size: 25px;
+    }
+    .headerset .btn a{
+        font-weight: bold;
+    } 
+}
+
+    
+    
+      
+
+
+
+
+    
