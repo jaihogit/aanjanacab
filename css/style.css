@@ -26,7 +26,11 @@ font-size: 16px;
 
 
 
-
+.timepicker:before {
+    content:'Time';
+    margin-right:.6em;
+    color:#4b4949;
+    }
 
 
 
@@ -336,7 +340,7 @@ color:green;
  
                                 .maincall{
                                    
-                                  background-image:linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6)) ,url("/aanjanacab/img/jodhmeh\ \(2\).jpg");
+                                  background-image:linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6)) ,url("/aanjanacab/img/jodhmeh\ \(2\).jpg\\");
                                   background-attachment: fixed;
                                   background-size: 100% 100%;
                                   width: 100%;
